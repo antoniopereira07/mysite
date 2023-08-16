@@ -8,5 +8,5 @@ class PostView(generic.ListView):
 	template_name = "index.html"
 
 class PostDetail(generic.DetailView):
-	model = "PostDetail"
+	model = Post
 	template_name = "post_detail.html"
